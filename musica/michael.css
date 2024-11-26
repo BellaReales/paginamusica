@@ -1,0 +1,112 @@
+body{
+    background-image: url(imagenes/FONDO\ BANDAS.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+/* .header {
+    background-color: #000000; 
+    border: 2px;
+    height: 100px;              
+    width: 100%;                
+    position: fixed;            
+    top: 0;                     
+    left: 0;                    
+    z-index: 1000;
+  
+} */
+.imagen {      
+ text-align: center;
+ height: 200px;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ background-color: black;
+
+}
+.cuadro {
+    
+    border: 2px solid #ffffff;  
+    padding: 20px;            
+    background-color: #f4f4f4f3; 
+    margin-top: 20px;         
+    width: 40%;               
+       
+    opacity: 0.5;
+}
+.titulosPixel {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    color: #ffffff;
+}
+.imagen2 {
+    margin-top: -230px;
+    margin-left: auto;
+    margin-right: 0;
+    width: 40%;
+
+}
+.imagenBanda {
+    margin-top: -530px; 
+    margin-left: auto; 
+    margin-right: 0; 
+    width: 20%;  
+
+}
+
+
+
+.cuadro1 {
+    border: 2px solid #ffffff;  
+    padding: 20px;            
+    background-color: #f4f4f4f3; 
+    margin-top: 20px;         
+    width: 40%;               
+       
+    opacity: 0.5;
+    margin-top: 50px;
+    margin-left: auto; 
+    margin-right: 0;
+    width: 40%;               
+}
+
+
+
+
+
+nav.content {
+    background-color: #333; 
+    padding: 10px 0; 
+    position: sticky; 
+    top: 0;
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.links {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.links li {
+    margin: 0 15px; 
+}
+
+.links a {
+    text-decoration: none; 
+    color: white; 
+    padding: 10px 20px; 
+    display: block; 
+    font-size: 16px; 
+}
+
+.links a:hover {
+    background-color: #ddd; 
+    color: black; 
+    border-radius: 4px; 
+}
